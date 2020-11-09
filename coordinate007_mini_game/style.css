@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+.line {
+  position: absolute;
+  /* 원하는 곳에 자유자재로 움직일 수 있도록 absolute로 */
+  background-color: white;
+}
+
+.horizontal {
+  width: 100%;
+  height: 1px;
+  top: 50%;
+}
+
+.vertical {
+  height: 100%;
+  width: 1px;
+  left: 50%;
+}
+
+.target {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* top과 left만 50%로 중앙을 설정하면, 이미지의 좌측 상단 꼭지점이 중간으로 가게 된다. */
+  /* 이미지를 정 중앙에 두고 싶으면, 꼭 transform으로 translate X,Y 값을 -50%으로 설정해줘야 한다. */
+}
+
+.tag {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(25px, 10px);
+  font-size: 25px;
+}

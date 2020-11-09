@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find a Rabbit</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <button>FInd a Rabbit</button>
+  <img src="img/carrot.png" alt="carrot">
+  <img src="img/carrot.png" alt="carrot">
+  <img src="img/carrot.png" alt="carrot">
+  <img src="img/carrot.png" alt="carrot">
+  <img src="img/carrot.png" alt="carrot">
+  <img src="img/carrot.png" alt="carrot">
+  <img src="img/carrot.png" alt="carrot">
+  <img src="img/carrot.png" alt="carrot">
+  <img id="rabbit" src="img/rabbit.png" alt="Rabbit">
+  <img src="img/carrot.png" alt="carrot">
+  <img src="img/carrot.png" alt="carrot">
+  <img src="img/carrot.png" alt="carrot">
+  
+  <script>
+    const button = document.querySelector('button');
+    const rabbit = document.querySelector('#rabbit');
+    button.addEventListener('click', () => {
+    rabbit.scrollIntoView({ behavior: 'smooth', block:"center" });
+  });
+  </script>
+
+</body>
+</html>
