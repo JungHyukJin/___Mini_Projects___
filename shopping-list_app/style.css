@@ -23,9 +23,9 @@ body {
   width: 400px;
   background-color: whitesmoke;
   border-radius: 20px;
-  -webkit-box-shadow: 18px 28px 12px -1px rgba(0, 0, 0, 0.67);
-  -moz-box-shadow: 18px 28px 12px -1px rgba(0, 0, 0, 0.67);
-  box-shadow: 18px 28px 12px -1px rgba(0, 0, 0, 0.67);
+  -webkit-box-shadow: 18px 28px 12px -1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 18px 28px 12px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 18px 28px 12px -1px rgba(0, 0, 0, 0.3);
 }
 
 .items {
@@ -58,15 +58,16 @@ body {
 }
 
 .header {
-  background-color: #c2c7cd;
+  background-color: rgb(74, 185, 152);
   border-radius: 15px 15px 0 0;
   font-size: 30px;
   height: 60px;
   padding-top: 5px;
+  font-weight: bold;
 }
 
 .footer {
-  background-color: #c2c7cd;
+  background-color: rgb(74, 185, 152);
   border-radius: 0 0 15px 15px;
 }
 

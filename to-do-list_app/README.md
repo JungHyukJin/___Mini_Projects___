@@ -1,6 +1,30 @@
-## To Do List App
+# To Do List App
 
-### GlobalStyle 설정
+> **2020.09.24~2020.10.6**
+
+> **Stack**: HTML, CSS, React JS
+>
+> **Tools :** Visual Studio Code
+>
+> **Purpose :** 첫번째 React JS 프로젝트이다. 이론공부를 병행하며 만들었다. 
+
+---
+
+- "+"버튼을 누르면 새로 추가가 가능, "x"를 누루면 취소가 가능.
+
+<img src="README.assets/image-20201014162410453.png" alt="image-20201014162410453" style="zoom: 80%;" />
+
+---
+
+- 우측 상단 휴지통 버튼을 누르면 삭제 가능.
+
+<img src="README.assets/image-20201012192620583.png" alt="image-20201012192620583" style="zoom: 80%;" />
+
+----
+
+---
+
+### Global Style 설정
 
 - 우선 페이지 전체를 회색배경으로 바꿔보자.
 - styled-components를 사용해서 body에 넣는 global style을 넣으려면 어떻게 해야 하는지 알아보자.

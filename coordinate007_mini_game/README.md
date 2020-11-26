@@ -1,8 +1,7 @@
 ## WEB API MINI GAME
 
-> 웹 API를 사용해서 좌표를 이용한 미니게임
+> 웹 API와 좌표를 이용한 미니게임
 >
->  https://junghyukjin.github.io/coordinate007_mini_game/index.html <<< Click!!!
 
 ![image-20201108173300045](README.assets/image-20201108173300045.png)
 
